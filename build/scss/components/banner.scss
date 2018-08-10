@@ -1,0 +1,38 @@
+.banner {
+    margin-top: 2rem;
+
+}
+.banner__box {
+    padding: 12rem 7% 14rem 7%;
+    color: #fff;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: .4rem;
+    overflow: hidden;
+
+    position: relative;
+    z-index: 1;
+    &:before {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: transparentize(#021b4f, .76);
+    }
+}
+.banner__title {
+    margin: 0;
+    font-size: 4.8rem;
+}
+.banner__text {
+    margin-top: 4rem;
+    font-size: 2.4rem;
+    line-height: 1.8;
+}
+.banner__button {
+    margin-top: 4rem;
+}

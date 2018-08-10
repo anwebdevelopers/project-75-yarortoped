@@ -1,5 +1,5 @@
-$main-color: #004575;
-$accent-color: #ffcc00;
+$color-main: #0c2583;
+$color-accent: #00a900;
 
 @mixin btn {
     display: inline-block;
@@ -9,13 +9,13 @@ $accent-color: #ffcc00;
     outline: none;
     text-decoration: none;
     background-color: transparent;
-    cursor: default;
+    cursor: pointer;
 }
-@mixin pseudo($display: block, $pos: absolute, $content: ''){
-  content: $content;
-  display: $display;
-  position: $pos;
-}
+// @mixin pseudo($display: block, $pos: absolute, $content: ''){
+//   content: $content;
+//   display: $display;
+//   position: $pos;
+// }
 
 // -webkit-appearance: none;
 // -moz-appearance: none;

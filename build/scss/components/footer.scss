@@ -1,0 +1,65 @@
+.footer {
+    padding: 8rem 0 3rem 0;
+}
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -2rem;
+}
+.footer__copy {
+    margin: 2rem;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+.footer__button {
+    margin: 2rem;
+}
+.footer__author {
+    margin: 2rem;
+
+    text-align: right;
+}
+.footer__author-title {
+    font-size: 1.2rem;
+}
+.footer__author-link {
+    @include btn;
+    margin-top: .5rem;
+    padding: .5rem .8rem;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: $color-main;
+    transition: .5s;
+	&:hover, &:active {
+		background-color: lighten($color-main, 20%);
+	}
+}
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 992px) {
+    .footer__box {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        // text-align: center;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+
+}
+
+@media only screen and (max-width : 640px) {
+
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 360px) {
+
+}
